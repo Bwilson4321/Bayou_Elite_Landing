@@ -1,0 +1,22 @@
+/*
+COLOR PALETTE
+#1F2937-dark background color (header/footer)
+#F9FAF8 - header main text color
+#E5E7EB - header secondary text color
+#3882F6 -button color/call to action background color
+#1F2937 - information header text color
+#E5E7EB - quote section background color
+#1F2937 - quote text color
+*/
+
+.main_header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+
+}
+
+.logo {
+    width: 150px;
+    border-radius: 50%;
+}
