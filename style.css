@@ -9,14 +9,66 @@ COLOR PALETTE
 #1F2937 - quote text color
 */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .main_header {
     background-color: #1F2937;
     color: #F9FAF8;
+    width: 100px;
+    height: 300px;
+    margin: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
-
 }
 
+.flex-container {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    flex: 1, 0, 100px;
+    
+}
+.flex-container2 {
+    display: flex;
+    flex-flow: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    flex: 1, 0, 100px;
+    background-color: chartreuse;
+}
 .logo {
-    width: 150px;
+    width: 120px;
     border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    background-color: aqua;
+
+
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+    gap: 2rem;
+}
+
+.columns .one {
+    background-color: aquamarine;
+}
+
+
+
+
+
+
