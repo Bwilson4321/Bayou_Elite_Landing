@@ -1,1 +1,1 @@
-Welcome fellow Developers! This is my very first landing page on my journey through The Odin Project. I believe one day I will enjoy looking back on this initial page and see how far I have come but until then, enjoy the simplicity!
+Welcome fellow Developers! This is my very first landing page on my journey through The Odin Project. I believe one day I will enjoy looking back on this initial page and see how far I have come, but until then, enjoy the simplicity!  
