@@ -1,0 +1,103 @@
+/*
+COLOR PALETTE
+#1F2937-dark background color (header/footer)
+#F9FAF8 - header main text color
+#E5E7EB - header secondary text color
+#4a5b7 -button color/call to action background color
+#1F2937 - information header text color
+#E5E7EB - quote section background color
+#1F2937 - quote text color
+*/
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+/* Header  */
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px, 100px, 0px, 0px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color:#F9FAF8;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Welcome Header*/
+
+.welcome {
+    display: flex;
+    color:#F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 30px 0px;
+}
+
+.welcome-message {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.welcome-message p {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
+h1 {
+    font-size: 40px; 
+    color:#F9FAF8;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background-color: #4a5b75;
+    padding: 10px;
+    border-radius: 18px;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
