@@ -3,7 +3,7 @@ COLOR PALETTE
 #1F2937-dark background color (header/footer)
 #F9FAF8 - header main text color
 #E5E7EB - header secondary text color
-#4a5b7 -button color/call to action background color
+#4a5b75 -button color/call to action background color
 #1F2937 - information header text color
 #E5E7EB - quote section background color
 #1F2937 - quote text color
@@ -98,10 +98,39 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-weight: bold;
-
-
-    
 }
 
+.logo {
+    width: 300px;
+    height: 250px;
+}
 
+/*Content*/
+
+.content {
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.information img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #4a5b75; 
+    border-radius: 10px;
+    margin: 5px 20px 0px 20px;
+    background-color: #F9FAF8;
+}
+
+/*Quote*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
 
