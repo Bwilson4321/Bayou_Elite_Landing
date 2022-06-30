@@ -63,7 +63,7 @@ body {
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
-    padding: 20px 0px 30px 0px;
+    padding: 5px 0px 5px 0px;
 }
 
 .welcome-message {
@@ -156,6 +156,47 @@ h2 {
     text-align: right;
     color:#1F2937;
 }
+
+/*Mailing List */
+
+.mailing-list {
+    background-color: #8f9399;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.stay-connected {
+    flex: 1;
+
+}
+
+.stay-connected p {
+    color: #F9FAF8;
+    opacity: 0.9;
+    margin: 5px 30px 30 px 50 px
+}
+
+h4 {
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    /* background-color: #4a5b75; */
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
 
 
 
